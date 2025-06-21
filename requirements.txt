@@ -1,0 +1,37 @@
+# Core dependencies
+torch>=1.12.0
+torchvision>=0.13.0
+numpy>=1.21.0
+pillow>=8.3.0
+opencv-python>=4.5.0
+matplotlib>=3.5.0
+imageio>=2.19.0
+imageio-ffmpeg>=0.4.7
+tqdm>=4.64.0
+tensorboard>=2.10.0
+pyyaml>=6.0
+
+# 3D Computer Vision
+open3d>=0.15.0
+trimesh>=3.12.0
+scipy>=1.9.0
+scikit-image>=0.19.0
+
+# NeRF specific
+configargparse>=1.5.3
+lpips>=0.1.4
+
+# COLMAP interface
+pycolmap>=0.3.0
+
+# Optional: for faster training
+ninja>=1.10.0  # for JIT compilation
+tinycudann>=1.6  # for Instant-NGP style hash encoding
+
+# Visualization
+plotly>=5.10.0
+wandb>=0.13.0  # optional: for experiment tracking
+
+# Utilities
+rich>=12.5.0  # for better CLI output
+typer>=0.6.0  # for CLI interfaces 
